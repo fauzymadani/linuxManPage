@@ -19,7 +19,7 @@ $commands = $stmt->fetchAll();
 
   <h2>Linux Interactive manual page</h2>
 
-  <p><a href="add_command.php">Tambah Perintah</a></p>
+  <p><a href="add_command.php">Add Command</a></p>
 
   <form method="GET" action="index.php">
     <input type="text" name="search" placeholder="search for command..." value="<?= isset($_GET['search']) ? htmlspecialchars($_GET['search']) : '' ?>">

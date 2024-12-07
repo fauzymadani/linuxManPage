@@ -1,5 +1,9 @@
 # Interactive linux command manual page
 
+`git clone https://github.com/fauzymadani/linuxManPage.git`
+`cd linuxManPage`
+`cp db.php.example db.php`
+
 TODO
 - add edit function (crud) for editing command
 - create login, register page for maintainer
